@@ -58,7 +58,7 @@ function ordenarArray_bubbleSort(){
     let inicio = performance.now();
 
     for(let i = 0; i < array_ordenado.length; i ++){
-        for(let j = 0 ; j < array_ordenado.length; j++){
+        for(let j = 0 ; j < array_ordenado.length - i; j++){
             if(array_ordenado[i] < array_ordenado[j]){
                 let aux = array_ordenado[i];
                 array_ordenado[i] = array_ordenado[j];
