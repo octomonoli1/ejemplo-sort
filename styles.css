@@ -1,0 +1,7 @@
+.array{
+    border: 1px solid black;
+}
+
+.array > tr, td{
+    border: 1px solid black;
+}
